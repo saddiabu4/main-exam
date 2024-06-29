@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav .container {
+  display: flex;
+  margin: 10px 0;
+}
+nav .container .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+nav .container .nav-links .texts {
+  display: flex;
+  gap: 30px;
+  margin-left: 400px;
+}
+nav .container .nav-links .texts a {
+  text-decoration: none;
+  color: #000000;
+}
+nav .container .nav-links ul {
+  display: flex;
+  list-style: none;
+  padding-left: 400px;
+}
+nav .container .nav-links ul li {
+  margin: 0 10px;
+}
+nav .container .nav-links ul li a {
+  text-decoration: none;
+}
+
+main .card1 {
+  background-image: url(../media/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.4em;
+}
+main .card1 p {
+  padding: 20px 0;
+}
+main .card1 button {
+  background-color: #FF4A32;
+  color: #ffffff;
+  padding: 10px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+main .card2 {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+main .card3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+main .card3 .text-w {
+  width: 40%;
+  text-align: center;
+}
+main .card3 .text-w p {
+  padding: 20px 0;
+}
+main .card4 {
+  display: flex;
+  justify-content: center;
+}
+main .card5 {
+  background-image: url("../media/Rectangle (1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin: 10px 0;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.4em;
+}
+main .card5 p {
+  padding: 10px 0;
+}
+main .card5 .wt {
+  width: 40%;
+  margin: 0 auto;
+}
+main .card5 button {
+  background-color: #FF4A32;
+  color: #ffffff;
+  padding: 10px 50px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+main .card6 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+main .card6 .text {
+  margin-top: 30px;
+  width: 20%;
+}
+main .card6 .text p {
+  padding: 10px 0;
+}
+main .card6 button {
+  background-color: #FF4A32;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+main .card7 img {
+  width: 100%;
+}
+main .card8 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+main .card9 .text h1 {
+  text-align: center;
+}
+main .card9 .line {
+  width: 80px;
+  height: 5px;
+  background-color: #CFCFCF;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+main .card9 .images {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+main .card9 .images p {
+  text-align: center;
+  color: red;
+}
+main .card9 .images .one {
+  display: inline-block;
+}
+main .card9 .images .second {
+  display: inline-block;
+}
+main .box {
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+main .box .txt {
+  text-align: center;
+  width: 15%;
+}
+main .box .txt p {
+  padding: 10px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  background-color: #F7F7F7;
+}
+footer .boxes {
+  width: 20%;
+}
+footer .boxes h1 {
+  padding: 5px 0;
+}
+footer .boxes p {
+  padding: 5px 0;
+}
+
+.finish {
+  margin: 50px 0;
+  margin-left: 80px;
+}
+.finish .color a {
+  text-decoration: none;
+  color: red;
+}
+.finish .v-card {
+  display: inline-block;
+  margin-left: 600px;
+}
+
+/*# sourceMappingURL=output.css.map */
