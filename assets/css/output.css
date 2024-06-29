@@ -11,35 +11,35 @@
   text-align: center;
 }
 
-nav .container {
+.container {
   display: flex;
   margin: 10px 0;
 }
-nav .container .nav-links {
+.container .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding: 10px 0;
 }
-nav .container .nav-links .texts {
+.container .nav-links .texts {
   display: flex;
   gap: 30px;
   margin-left: 400px;
 }
-nav .container .nav-links .texts a {
+.container .nav-links .texts a {
   text-decoration: none;
   color: #000000;
 }
-nav .container .nav-links ul {
+.container .nav-links ul {
   display: flex;
   list-style: none;
   padding-left: 400px;
 }
-nav .container .nav-links ul li {
+.container .nav-links ul li {
   margin: 0 10px;
 }
-nav .container .nav-links ul li a {
+.container .nav-links ul li a {
   text-decoration: none;
 }
 
